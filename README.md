@@ -18,21 +18,4 @@ Personal academic website for **Zongrong (Jasper) Li**, Ph.D. candidate in GIS a
 | `assets/css/global.css` | Custom styles |
 | `assets/CV/cv.pdf` | CV file |
 
-## Local Preview
 
-```bash
-cd E:/Jasper0122.github.io
-bundle exec jekyll serve
-```
-
-Then open http://127.0.0.1:4000/
-
-## Claude Skill
-
-This project includes a Claude Code slash command for quick context loading:
-
-```
-/site-context
-```
-
-Reads all key files and summarizes the site structure and common editing tasks.

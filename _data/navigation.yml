@@ -1,0 +1,20 @@
+pages:
+# NOTE: `name` field must match the `navbar_title` field in the page's front matter to ensure the correct page is highlighted in the navbar.
+- name: 首页
+  url: /
+  lang: zh
+- name: 论文
+  url: /publications
+  lang: zh
+- name: 项目
+  url: /projects
+  lang: zh
+- name: 竞赛
+  url: /competitions
+  lang: zh
+- name: 展示
+  url: /showcase
+  lang: zh
+- name: EN
+  url: /en/
+  lang: en

@@ -1,0 +1,88 @@
+<!-- Desktop & Tablet Version -->
+<div class="d-none d-md-block">
+    <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
+
+        <!-- Project Cover Image -->
+        <div class="col-md-5 col-xl-4 p-md-3">
+            {%- if item.cover -%}
+            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}"
+                 class="lazy rounded-sm"
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;"
+                 src="{{ item.cover | relative_url }}">
+            {%- else -%}
+            <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
+            {%- endif -%}
+        </div>
+
+        <!-- Project Title & Description -->
+        <div class="col-md-7 col-xl-8 p-3 pl-md-0">
+            <h4 class="mt-0 mb-1 font-weight-bold">{{ item.title }}</h4>
+            {% if item.date_display %}<p class="mb-1 text-muted" style="font-size: 16px;">{{ item.date_display }}</p>{% endif %}
+            {% if item.role %}<p class="mb-2"><strong class="text-primary">{{ item.role }}</strong></p>{% endif %}
+
+            <!-- 项目内容 -->
+            {% if item.project_content %}
+            <p class="mb-1"><strong>项目内容：</strong>{{ item.project_content }}</p>
+            {% endif %}
+
+            <!-- 主要工作 -->
+            {% if item.work %}
+            <p class="mb-1"><strong>主要工作：</strong>{{ item.work }}</p>
+            {% endif %}
+
+            <!-- 现有成果 -->
+            {% if item.achievement %}
+            <p class="mb-0 text-success"><strong>现有成果：</strong>{{ item.achievement }}</p>
+            {% endif %}
+
+            <!-- Links -->
+            {% for link in item.links %}
+                {% unless link[0] == "Code" %}
+                    {% if link[0] == "Paper" %}
+                    <a class="btn btn-sm btn-outline-primary mr-1 mb-1 mt-2" target="_blank" href="{{ link[1] }}">Project</a>
+                    {% else %}
+                    <a class="btn btn-sm btn-outline-primary mr-1 mb-1 mt-2" target="_blank" href="{{ link[1] }}">{{ link[0] }}</a>
+                    {% endif %}
+                {% endunless %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- Mobile Version -->
+<div class="row no-gutters d-md-none" style="display: flex; flex-direction: column; align-items: center;">
+    {%- if item.cover -%}
+    <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}"
+         class="lazy rounded-sm"
+         style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;"
+         src="{{ item.cover | relative_url }}">
+    {%- endif -%}
+
+    <div class="w-100" style="background-color: rgba(255,255,255,0.9); padding: 15px;">
+        <h4 class="mt-0 mb-1 font-weight-bold">{{ item.title }}</h4>
+        {% if item.date_display %}<p class="mb-1 text-muted" style="font-size: 16px;">{{ item.date_display }}</p>{% endif %}
+        {% if item.role %}<p class="mb-2"><strong class="text-primary">{{ item.role }}</strong></p>{% endif %}
+
+        {% if item.project_content %}
+        <p class="mb-1"><strong>项目内容：</strong>{{ item.project_content }}</p>
+        {% endif %}
+
+        {% if item.work %}
+        <p class="mb-1"><strong>主要工作：</strong>{{ item.work }}</p>
+        {% endif %}
+
+        {% if item.achievement %}
+        <p class="mb-0 text-success"><strong>现有成果：</strong>{{ item.achievement }}</p>
+        {% endif %}
+
+        {% for link in item.links %}
+            {% unless link[0] == "Code" %}
+                {% if link[0] == "Paper" %}
+                <a class="btn btn-sm btn-outline-primary mr-1 mb-1 mt-2" target="_blank" href="{{ link[1] }}">[Project]</a>
+                {% else %}
+                <a class="btn btn-sm btn-outline-primary mr-1 mb-1 mt-2" target="_blank" href="{{ link[1] }}">{{ link[0] }}</a>
+                {% endif %}
+            {% endunless %}
+        {% endfor %}
+    </div>
+</div>

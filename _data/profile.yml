@@ -1,0 +1,107 @@
+primary_name: "屈震"
+secondary_name: "Zhen Qu"
+navbar_name: "首页"
+
+positions:
+- name: 博士研究生
+
+email: "xidianquzhen@163.com"
+phone: ""  # 不公开
+cv_link: /assets/CV/cv.pdf
+github: "xiaozhen228"
+twitter: ""  # 如果有Twitter请填入
+linkedin: ""  # 如果有LinkedIn请填入
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+    我是中国科学院自动化研究所的博士研究生，研究方向为<strong>多模态理解</strong>、<strong>多模态异常检测</strong>和<strong>零/少样本学习</strong>。
+  </p>
+
+  <p>
+    我于2022年进入中国科学院自动化研究所攻读博士学位（硕博连读），博士课题为《基于视觉语言模型的异常检测方法研究》。
+    此前，我于2018年至2022年在西安电子科技大学人工智能学院获得学士学位，专业为智能科学与技术。
+  </p>
+
+  <p>
+    我的研究兴趣包括：多模态大模型、零样本/少样本异常检测、工业视觉、图像分割。
+    在 CVPR、ICCV、ECCV 等顶级会议和 IEEE TMM、TCSVT、TII 等顶级期刊发表学术论文11篇，其中第一作者论文6篇。
+    论文累计引用超过200次，其中 CVPR 2024 论文 VCP-CLIP 单篇引用136次。
+  </p>
+
+  <p>
+    我曾获得2024年<strong>国家奖学金</strong>、2026年<strong>攀登奖学金</strong>等荣誉，并入选中国科协"博士青培"专项计划。
+    在学术竞赛方面，曾获 CVPR 2025/2026 VLM Anomaly Challenge 赛道冠军、CVPR 2023 Vision 挑战赛亚军等。
+  </p>
+
+  <p>
+    我担任 CVPR、ICCV、ECCV、NeurIPS、ICLR、AAAI 等顶级会议和 IEEE TII、TCSVT、TIM 等顶刊的审稿人。
+  </p>
+
+portrait_url: /assets/images/photos/profile.jpg
+portrait_caption: >-
+  中科院自动化研究所
+
+education:
+- name: 中国科学院大学
+  logo: /assets/images/badges/UCAS.jpeg
+  subtitle: '"双一流"建设高校'
+  department: 自动化研究所
+  major: 模式识别与智能系统
+  degree: 博士
+  date: 2022.09 - 2027.06
+  details:
+    - "硕博连读"
+    - "博士课题：《基于视觉语言模型的异常检测方法研究》"
+  location: 北京
+  honors: "2024年国家奖学金，2026年攀登奖学金，入选中国科协「博士青培」项目(全所仅2人)，CVPR 2025/2026 工业视觉算法竞赛冠军、CVPR 2023 亚军，优秀共青团干部，三好学生"
+
+- name: 西安电子科技大学
+  logo: /assets/images/badges/XDU.jpeg
+  subtitle: '"211工程", "双一流"建设高校'
+  department: 人工智能学院
+  major: 智能科学与技术
+  degree: 本科
+  date: 2018.09 - 2022.06
+  details:
+    - "GPA: 3.8/4.0  | 专业排名：前20%  |  英语水平：四级 501 / 六级 452"
+  location: 西安
+  honors: "全国大学生计算机设计大赛国家二等奖，国际大学生数学建模竞赛一等奖，全国大学生数学建模大赛省级二等奖，全国大学生数学竞赛省级一等奖(两次)"
+
+experience: []
+
+awards:
+- name: 攀登奖学金
+  date: 2026.02
+  level: 校级
+- name: 入选中国科协"博士青培"专项计划
+  date: 2025.12
+  level: 国家级
+- name: 国家奖学金
+  date: 2024.12
+  level: 国家级
+- name: 中国科学院大学三好学生
+  date: 2024.06
+  level: 校级
+- name: 优秀共青团干部
+  date: 2023.05
+  level: 校级
+- name: 全国大学生计算机设计大赛国家二等奖
+  date: 2021.07
+  level: 国家级
+- name: 国际大学生数学建模竞赛一等奖
+  date: 2021.04
+  level: 国际级
+- name: 全国大学生数学建模大赛省级二等奖
+  date: 2020.11
+  level: 省级
+- name: 全国大学生数学竞赛省级一等奖
+  date: 2019.11
+  level: 省级
+
+research_interests:
+- 多模态理解
+- 多模态异常检测
+- 零样本学习
+- 少样本学习
+- 工业视觉

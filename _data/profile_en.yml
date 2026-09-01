@@ -1,0 +1,104 @@
+primary_name: "Zhen Qu"
+secondary_name: "屈震"
+navbar_name: "Home"
+
+positions:
+- name: Ph.D. Candidate
+
+email: "xidianquzhen@163.com"
+phone: ""  # Not displayed
+cv_link: /assets/CV/cv.pdf
+github: "xiaozhen228"
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+    I am a Ph.D. candidate at the <strong>Institute of Automation, Chinese Academy of Sciences</strong> (CASIA), working on <strong>Multimodal Understanding</strong>, <strong>Multimodal Anomaly Detection</strong>, and <strong>Zero/Few-shot Learning</strong>.
+  </p>
+
+  <p>
+    I joined CASIA in 2022 for my Ph.D. (direct Ph.D. track) under the supervision of Prof. [Name], focusing on anomaly detection with vision-language models.
+    Previously, I received my B.Eng. degree in Intelligent Science and Technology from Xidian University (2018-2022).
+  </p>
+
+  <p>
+    My research interests include: multimodal large language models, zero-shot/few-shot anomaly detection, industrial vision, and image segmentation.
+    I have published 11 papers in top conferences (CVPR, ICCV, ECCV) and journals (IEEE TMM, TCSVT, TII), with 6 first-author papers.
+    My work has received over 200 citations, with VCP-CLIP (ECCV 2024) alone cited 136 times.
+  </p>
+
+  <p>
+    I have been honored with the <strong>National Scholarship</strong> (2024), <strong>Climbing Scholarship</strong> (2026), and was selected into the "Young Talents Cultivation Program" by the China Association for Science and Technology.
+    In academic competitions, I won the CVPR 2025/2026 VLM Anomaly Challenge Champion and CVPR 2023 Vision Challenge Runner-up.
+  </p>
+
+  <p>
+    I serve as a reviewer for top conferences (CVPR, ICCV, ECCV, NeurIPS, ICLR, AAAI) and journals (IEEE TII, TCSVT, TIM).
+  </p>
+
+portrait_url: /assets/images/photos/profile.jpg
+portrait_caption: >-
+  Institute of Automation, Chinese Academy of Sciences
+
+education:
+- name: Chinese Academy of Sciences
+  logo: /assets/images/badges/UCAS.jpeg
+  subtitle: '"Double First-Class" Initiative'
+  department: Institute of Automation
+  major: Pattern Recognition and Intelligent Systems
+  degree: Ph.D.
+  date: Sep. 2022 - Jun. 2027
+  details:
+    - "Direct Ph.D. Track"
+    - "Research Topic: Anomaly Detection with Vision-Language Models"
+  location: Beijing
+  honors: "National Scholarship (2024), Climbing Scholarship (2026), CAST Young Talents Program, CVPR 2025/2026 VLM Anomaly Challenge Champion, CVPR 2023 Vision Challenge Runner-up"
+- name: Xidian University
+  logo: /assets/images/badges/XDU.jpeg
+  subtitle: '"211 Project", "Double First-Class" Initiative'
+  department: School of Artificial Intelligence
+  major: Intelligent Science and Technology
+  degree: B.Eng.
+  date: Sep. 2018 - Jun. 2022
+  details:
+    - "GPA: 3.8/4.0 | Rank: Top 20% | CET-4: 501 | CET-6: 452"
+  location: Xi'an
+  honors: "National Second Prize in Computer Design Competition, Outstanding Winner in International Mathematical Contest in Modeling, Provincial Second Prize in Mathematical Contest in Modeling, Provincial First Prize in Mathematical Contest (twice)"
+
+experience: []
+
+awards:
+- name: Climbing Scholarship
+  date: Feb. 2026
+  level: University
+- name: Selected for CAST Young Talents Cultivation Program
+  date: Dec. 2025
+  level: National
+- name: National Scholarship
+  date: Dec. 2024
+  level: National
+- name: Excellent Student Award, UCAS
+  date: Jun. 2024
+  level: University
+- name: Outstanding Communist Youth League Cadre
+  date: May. 2023
+  level: University
+- name: National Second Prize, China University Computer Design Competition
+  date: Jul. 2021
+  level: National
+- name: Outstanding Winner, International Mathematical Contest in Modeling
+  date: Apr. 2021
+  level: International
+- name: Provincial Second Prize, China Mathematical Contest in Modeling
+  date: Nov. 2020
+  level: Provincial
+- name: Provincial First Prize, China Undergraduate Mathematical Contest
+  date: Nov. 2019
+  level: Provincial
+
+research_interests:
+- Multimodal Understanding
+- Multimodal Anomaly Detection
+- Zero-shot Learning
+- Few-shot Learning
+- Industrial Vision

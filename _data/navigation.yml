@@ -12,9 +12,6 @@ pages:
 - name: 竞赛
   url: /competitions
   lang: zh
-- name: 展示
-  url: /showcase
-  lang: zh
 - name: EN
   url: /en/
   lang: en

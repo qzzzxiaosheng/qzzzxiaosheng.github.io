@@ -13,7 +13,7 @@ date: 2025-01-01
 date_display: "2025.01 - 2025.04"
 role: "算法负责人"
 selected: true
-cover: /assets/images/covers/dictas.png
+cover: /assets/images/covers/DictAS.png
 links:
   Paper: "#"
 ---

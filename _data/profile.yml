@@ -6,7 +6,7 @@ positions:
 - name: 博士研究生
 
 email: "xidianquzhen@163.com"
-phone: ""  # 不公开
+gscholar: "https://scholar.google.com.hk/citations?user=6j6PVtwAAAAJ&hl=zh-CN"
 cv_link: /assets/CV/cv.pdf
 github: "xiaozhen228"
 twitter: ""  # 如果有Twitter请填入
